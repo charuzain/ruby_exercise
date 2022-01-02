@@ -21,6 +21,8 @@ puts "and you'll 3 chances to guess it"
 random_number = rand(10) + 1
 puts random_number
 puts "okay I've my number"
+
+
 print "Guess 1: "
 num1 = gets.chomp
 puts num1
@@ -44,7 +46,7 @@ else
     else 
   puts "That was your last guess"
   puts " My number is #{random_number}"
-  puts "Goodbye!!"
+  puts "\n\nGoodbye!!"
 end
 end
 end
